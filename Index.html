@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container-1">
+        <div class="row-1">
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-header">Tính tiền lương nhân viên</div>
+              <div class="card-body">
+                <div class="form-group">
+                  <label for="">Số ngày làm</label>
+                  <input id="soNgaylam" type="text" class="form-control" />
+                </div>
+                <button id="btnTinhluongNv" class="btn btn-danger">
+                  Tính lương nhân viên
+                </button>
+              </div>
+              <div
+                id="footerTinhtienLuongNv"
+                class="card-footer text-muted"
+              ></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="container-2">
+        <div class="row-1">
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-header">Giá trị trung bình của 5 số thực</div>
+              <div class="card-body">
+                <div class="form-group">
+                  <label for="">Số thực thứ 1</label>
+                  <input id="soThucthu1" type="text" class="form-control" />
+                </div>
+  
+                <div class="form-group">
+                  <label for="">Số thực thứ 2</label>
+                  <input id="soThucthu2" type="text" class="form-control" />
+                </div>
+  
+                <div class="form-group">
+                  <label for="">Số thực thứ 3</label>
+                  <input id="soThucthu3" type="text" class="form-control" />
+                </div>
+  
+                <div class="form-group">
+                  <label for="">Số thực thứ 4</label>
+                  <input id="soThucthu4" type="text" class="form-control" />
+                </div>
+  
+                <div class="form-group">
+                  <label for="">Số thực thứ 5</label>
+                  <input id="soThucthu5" type="text" class="form-control" />
+                </div>
+                <button id="btnTinhlgiaTritb" class="btn btn-danger">
+                  Tính giá trị trung bình
+                </button>
+              </div>
+              <div id="footerGiatriTb" class="card-footer text-muted"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="container-3">
+        <div class="row-1">
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-header">Quy đổi USD sang VND</div>
+              <div class="card-body">
+                <div class="form-group">
+                  <label for="">Số tiền USD cần quy đổi</label>
+                  <input id="soTienuSd" type="text" class="form-control" />
+                </div>
+                <button id="btnQuydoiUsdVnd" class="btn btn-danger">
+                  Quy đổi USD sang VND
+                </button>
+              </div>
+              <div id="footerQuydoiUsdVnd" class="card-footer text-muted"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="container-4">
+        <div class="row-1">
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-header">Tính chu vi, diện tích hình chữ nhật</div>
+              <div class="card-body">
+                <div class="form-group">
+                  <label for="">Số liệu chiều dài</label>
+                  <input id="chieuDai" type="text" class="form-control" />
+                </div>
+  
+                <div class="form-group">
+                  <label for="">Số liệu chiều rộng</label>
+                  <input id="chieuRong" type="text" class="form-control" />
+                </div>
+  
+                <button id="btnTinhcVdT" class="btn btn-danger">
+                  Tính Chu vi, Diện tích
+                </button>
+              </div>
+              <div id="footerchuVidienTich" class="card-footer text-muted"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="container-5">
+        <div class="row-1">
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-header">Tính tổng 02 ký số</div>
+              <div class="card-body">
+                <div class="form-group">
+                  <label for="">Nhập số có 02 chữ số</label>
+                  <input id="soVuanhap" type="text" class="form-control" />
+                </div>
+                <button id="btnTonghaiKyso" class="btn btn-danger">
+                  Tổng 02 ký số của số có 02 chữ số
+                </button>
+              </div>
+              <div id="footerTonghaiKyso" class="card-footer text-muted"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./Main.js"></script>
+  </body>
+</html>
